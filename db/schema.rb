@@ -10,13 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_23_214721) do
+ActiveRecord::Schema.define(version: 2018_10_23_215133) do
 
   create_table "adventurer_classes", force: :cascade do |t|
     t.string "name"
     t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "class_spell_lists", force: :cascade do |t|
+    t.integer "className_id"
+    t.integer "spellName_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["className_id"], name: "index_class_spell_lists_on_className_id"
+    t.index ["spellName_id"], name: "index_class_spell_lists_on_spellName_id"
   end
 
   create_table "schools", force: :cascade do |t|
