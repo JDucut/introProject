@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_23_214443) do
+ActiveRecord::Schema.define(version: 2018_10_23_214721) do
 
   create_table "adventurer_classes", force: :cascade do |t|
     t.string "name"
@@ -24,6 +24,21 @@ ActiveRecord::Schema.define(version: 2018_10_23_214443) do
     t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "spells", force: :cascade do |t|
+    t.string "name"
+    t.string "concentration"
+    t.string "description"
+    t.string "range"
+    t.string "components"
+    t.string "duration"
+    t.string "castingTime"
+    t.string "level"
+    t.integer "schoolName_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["schoolName_id"], name: "index_spells_on_schoolName_id"
   end
 
 end

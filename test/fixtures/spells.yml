@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  concentration: MyString
+  description: MyString
+  range: MyString
+  components: MyString
+  duration: MyString
+  castingTime: MyString
+  level: MyString
+  schoolName: 
+
+two:
+  name: MyString
+  concentration: MyString
+  description: MyString
+  range: MyString
+  components: MyString
+  duration: MyString
+  castingTime: MyString
+  level: MyString
+  schoolName: 
