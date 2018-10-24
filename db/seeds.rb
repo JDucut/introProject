@@ -21,10 +21,14 @@ class_hash['classes'].each do |x|
 						   :description => x['desc'])
 end
 
+puts "Finished populating Classes table"
+
 school_hash['schools'].each do |school|
-	School.create(:name => school['name'],
+	School.create(:schoolName => school['name'],
 				  :description => school['name'])
 end
+
+puts "Finished populating Schools table"
 
 spell_hash['Spells'].each do |spell|
 	doThis = Spell.create(:name => spell['name'],
@@ -34,12 +38,17 @@ spell_hash['Spells'].each do |spell|
 					 :components => spell['components'],
 					 :duration => spell['duration'],
 					 :castingTime => spell['casting_time'],
-					 :level => spell['level'])
-					 #:school => School.first)
+					 :level => spell['level'],
+					 :school => School.first)
 
 	puts "#{doThis.errors.full_messages}"
 end
 
+puts "Finished populating spells table"
+
 puts "There are #{AdventurerClass.count} classes."
 puts "There are #{School.count} schools."
 puts "There are #{Spell.count} spells."
+
+# puts "The first spell is #{Spell.first.name}."
+# puts "The last spell is #{Spell.last.school_id}."
