@@ -1,0 +1,36 @@
+{
+	"classes":[
+		{
+			"name":"Bard",
+			"desc":"An inspiring magician whose power echoes the music of creation."
+		},
+		{
+			"name":"Cleric",
+			"desc":"A priestly champion who wields divine magic in service of a higher power."
+		},
+		{
+			"name":"Druid",
+			"desc":"A priest of the Old Faith, wielding the powers of nature and adopting animal forms."
+		},
+		{
+			"name":"Paladin",
+			"desc":"A holy warrior bound to a sacred oath."
+		},
+		{
+			"name":"Ranger",
+			"desc":"A warrior who combats threats on the edges of civilization."
+		},
+		{
+			"name":"Warlock",
+			"desc":"A wielder of magic that is derived from a bargain with an extraplanar entity."
+		},
+		{
+			"name":"Sorcerer",
+			"desc":"A spellcaster who draws on inherent magic from a gift or bloodline."
+		},
+		{
+			"name":"Wizard",
+			"desc":"A scholarly magic-user capable of manipulating the structures of reality."
+		}
+	]
+}

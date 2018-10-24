@@ -9,7 +9,7 @@ class CreateSpells < ActiveRecord::Migration[5.2]
       t.string :duration
       t.string :castingTime
       t.string :level
-      t.references :schoolName, foreign_key: true
+      t.references :school, foreign_key: true
 
       t.timestamps
     end
