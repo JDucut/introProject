@@ -39,9 +39,9 @@ spell_hash['Spells'].each do |spell|
 					 :duration => spell['duration'],
 					 :castingTime => spell['casting_time'],
 					 :level => spell['level'],
-					 :school => School.first)
+					 :school => School.find_by(schoolName: spell['school']))
 
-	puts "#{doThis.errors.full_messages}"
+	#puts "#{doThis.errors.full_messages}"
 end
 
 puts "Finished populating spells table"
@@ -50,5 +50,3 @@ puts "There are #{AdventurerClass.count} classes."
 puts "There are #{School.count} schools."
 puts "There are #{Spell.count} spells."
 
-# puts "The first spell is #{Spell.first.name}."
-# puts "The last spell is #{Spell.last.school_id}."
