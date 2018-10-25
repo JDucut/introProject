@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_23_215133) do
+ActiveRecord::Schema.define(version: 2018_10_25_155332) do
 
   create_table "adventurer_classes", force: :cascade do |t|
     t.string "name"
@@ -20,12 +20,12 @@ ActiveRecord::Schema.define(version: 2018_10_23_215133) do
   end
 
   create_table "class_spell_lists", force: :cascade do |t|
-    t.integer "className_id"
-    t.integer "spellName_id"
+    t.integer "adventurerClass_id"
+    t.integer "spell_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["className_id"], name: "index_class_spell_lists_on_className_id"
-    t.index ["spellName_id"], name: "index_class_spell_lists_on_spellName_id"
+    t.index ["adventurerClass_id"], name: "index_class_spell_lists_on_adventurerClass_id"
+    t.index ["spell_id"], name: "index_class_spell_lists_on_spell_id"
   end
 
   create_table "schools", force: :cascade do |t|

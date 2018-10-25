@@ -1,4 +1,4 @@
 class ClassSpellList < ApplicationRecord
-  belongs_to :className
-  belongs_to :spellName
+  belongs_to :adventurerClass
+  belongs_to :spell
 end
