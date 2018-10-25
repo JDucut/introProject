@@ -89,7 +89,7 @@
     "casting_time":"1 minute",
     "level":"1st-level",
     "school":"Abjuration",
-    "class":"Ranger, Ritual Caster, Wizard"
+    "class":"Ranger, Wizard"
   },
   {
     "name":"Alter Self",
@@ -137,7 +137,7 @@
     "casting_time":"1 action",
     "level":"2nd-level",
     "school":"Enchantment",
-    "class":"Bard, Druid, Ranger, Ritual Caster"
+    "class":"Bard, Druid, Ranger"
   },
   {
     "name":"Animal Shapes",
@@ -333,7 +333,7 @@
     "casting_time":"1 minute",
     "level":"2nd-level",
     "school":"Divination",
-    "class":"Cleric, Ritual Caster",
+    "class":"Cleric",
     "domains":"Knowledge"
   },
   {
@@ -504,7 +504,7 @@
     "casting_time":"1 action",
     "level":"2nd-level",
     "school":"Divination",
-    "class":"Druid, Ranger, Ritual Caster"
+    "class":"Druid, Ranger"
   },
   {
     "name":"Bestow Curse",
@@ -979,7 +979,7 @@
     "casting_time":"1 minute",
     "level":"5th-level",
     "school":"Divination",
-    "class":"Cleric, Paladin, Ritual Caster",
+    "class":"Cleric, Paladin",
     "archetype":"Paladin: Devotion",
     "oaths":"Devotion"
   },
@@ -995,7 +995,7 @@
     "casting_time":"1 minute",
     "level":"5th-level",
     "school":"Divination",
-    "class":"Druid, Paladin, Ranger, Ritual Caster",
+    "class":"Druid, Paladin, Ranger",
     "archetype":"Paladin: Ancients",
     "circles":"Arctic, Forest",
     "oaths":"Ancients"
@@ -1027,7 +1027,7 @@
     "casting_time":"1 action",
     "level":"1st-level",
     "school":"Divination",
-    "class":"Bard, Ritual Caster, Sorcerer, Warlock, Wizard"
+    "class":"Bard, Sorcerer, Warlock, Wizard"
   },
   {
     "name":"Compulsion",
@@ -1214,7 +1214,7 @@
     "casting_time":"1 minute",
     "level":"5th-level",
     "school":"Divination",
-    "class":"Ritual Caster, Warlock, Wizard"
+    "class":"Warlock, Wizard"
   },
   {
     "name":"Contagion",
@@ -1625,7 +1625,7 @@
     "casting_time":"1 action",
     "level":"1st-level",
     "school":"Divination",
-    "class":"Bard, Cleric, Druid, Paladin, Ranger, Ritual Caster, Sorcerer, Wizard"
+    "class":"Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard"
   },
   {
     "name":"Detect Poison and Disease",
@@ -1640,7 +1640,7 @@
     "casting_time":"1 action",
     "level":"1st-level",
     "school":"Divination",
-    "class":"Cleric, Druid, Paladin, Ranger, Ritual Caster"
+    "class":"Cleric, Druid, Paladin, Ranger"
   },
   {
     "name":"Detect Thoughts",
@@ -1771,7 +1771,7 @@
     "casting_time":"1 action",
     "level":"4th-level",
     "school":"Divination",
-    "class":"Cleric, Druid, Ritual Caster",
+    "class":"Cleric, Druid",
     "archetype":"Druid: Forest, Grassland",
     "circles":"Forest, Grassland"
   },
@@ -1836,7 +1836,7 @@
     "casting_time":"1 minute",
     "level":"6th-level",
     "school":"Conjuration",
-    "class":"Ritual Caster, Wizard"
+    "class":"Wizard"
   },
   {
     "name":"Dominate Monster",
@@ -2263,7 +2263,7 @@
     "casting_time":"1 action",
     "level":"3rd-level",
     "school":"Necromancy",
-    "class":"Bard, Cleric, Druid, Ritual Caster, Wizard"
+    "class":"Bard, Cleric, Druid, Wizard"
   },
   {
     "name":"Find Familiar",
@@ -2278,7 +2278,7 @@
     "casting_time":"1 hour",
     "level":"1st-level",
     "school":"Conjuration",
-    "class":"Ritual Caster, Wizard"
+    "class":"Wizard"
   },
   {
     "name":"Find Steed",
@@ -2531,7 +2531,7 @@
     "casting_time":"10 minutes",
     "level":"6th-level",
     "school":"Abjuration",
-    "class":"Cleric, Ritual Caster"
+    "class":"Cleric"
   },
   {
     "name":"Forcecage",
@@ -2671,7 +2671,7 @@
     "casting_time":"1 action",
     "level":"2nd-level",
     "school":"Necromancy",
-    "class":"Cleric, Ritual Caster, Wizard"
+    "class":"Cleric, Wizard"
   },
   {
     "name":"Giant Insect",
@@ -3253,7 +3253,7 @@
     "casting_time":"1 minute",
     "level":"1st-level",
     "school":"Divination",
-    "class":"Bard, Cleric, Ritual Caster, Wizard",
+    "class":"Bard, Cleric, Wizard",
     "archetype":"Cleric: Knowledge",
     "domains":"Knowledge"
   },
@@ -3270,7 +3270,7 @@
     "casting_time":"1 minute",
     "level":"1st-level",
     "school":"Illusion",
-    "class":"Bard, Ritual Caster, Warlock, Wizard"
+    "class":"Bard, Warlock, Wizard"
   },
   {
     "name":"Immolation",
@@ -3496,7 +3496,7 @@
     "casting_time":"1 minute",
     "level":"3rd-level",
     "school":"Evocation",
-    "class":"Bard, Ritual Caster, Wizard"
+    "class":"Bard, Wizard"
   },
   {
     "name":"Lesser Restoration",
@@ -3604,7 +3604,7 @@
     "casting_time":"1 action",
     "level":"2nd-level",
     "school":"Divination",
-    "class":"Bard, Druid, Ranger, Ritual Caster"
+    "class":"Bard, Druid, Ranger"
   },
   {
     "name":"Locate Creature",
@@ -3756,7 +3756,7 @@
     "casting_time":"1 minute",
     "level":"2nd-level",
     "school":"Illusion",
-    "class":"Bard, Ritual Caster, Wizard"
+    "class":"Bard, Wizard"
   },
   {
     "name":"Magic Stone",
@@ -3907,7 +3907,7 @@
     "casting_time":"1 action",
     "level":"3rd-level",
     "school":"Transmutation",
-    "class":"Cleric, Druid, Ritual Caster",
+    "class":"Cleric, Druid",
     "archetype":"Druid: Mountain",
     "circles":"Mountain"
   },
@@ -4376,7 +4376,7 @@
     "casting_time":"1 minute",
     "level":"3rd-level",
     "school":"Illusion",
-    "class":"Ritual Caster, Wizard"
+    "class":"Wizard"
   },
   {
     "name":"Planar Ally",
@@ -4689,7 +4689,7 @@
     "casting_time":"1 action",
     "level":"1st-level",
     "school":"Transmutation",
-    "class":"Cleric, Druid, Paladin, Ritual Caster"
+    "class":"Cleric, Druid, Paladin"
   },
   {
     "name":"Pyrotechnics",
@@ -4734,7 +4734,7 @@
     "casting_time":"1 action",
     "level":"5th-level",
     "school":"Divination",
-    "class":"Ritual Caster, Wizard"
+    "class":"Wizard"
   },
   {
     "name":"Ray of Enfeeblement",
@@ -5163,7 +5163,7 @@
     "casting_time":"1 action",
     "level":"2nd-level",
     "school":"Illusion",
-    "class":"Bard, Cleric, Druid, Ranger, Ritual Caster",
+    "class":"Bard, Cleric, Druid, Ranger",
     "archetype":"Druid: Desert",
     "circles":"Desert"
   },
@@ -5209,7 +5209,7 @@
     "casting_time":"1 action",
     "level":"2nd-level",
     "school":"Transmutation",
-    "class":"Bard, Druid, Ritual Caster, Wizard"
+    "class":"Bard, Druid, Wizard"
   },
   {
     "name":"Sleep",
@@ -5306,7 +5306,7 @@
     "casting_time":"1 action",
     "level":"1st-level",
     "school":"Divination",
-    "class":"Bard, Cleric, Druid, Paladin, Ranger, Ritual Caster",
+    "class":"Bard, Cleric, Druid, Paladin, Ranger",
     "archetype":"Cleric: Nature<br/> Paladin: Ancients",
     "domains":"Nature",
     "oaths":"Ancients"
@@ -5686,7 +5686,7 @@
     "casting_time":"1 action",
     "level":"1st-level",
     "school":"Conjuration",
-    "class":"Ritual Caster, Wizard"
+    "class":"Wizard"
   },
   {
     "name":"Thaumaturgy",
@@ -5955,7 +5955,7 @@
     "casting_time":"1 action",
     "level":"1st-level",
     "school":"Conjuration",
-    "class":"Bard, Ritual Caster, Warlock, Wizard"
+    "class":"Bard, Warlock, Wizard"
   },
   {
     "name":"Vampiric Touch",
@@ -6156,7 +6156,7 @@
     "casting_time":"1 action",
     "level":"3rd-level",
     "school":"Transmutation",
-    "class":"Druid, Ranger, Ritual Caster, Sorcerer, Wizard",
+    "class":"Druid, Ranger, Sorcerer, Wizard",
     "circles":"Coast"
   },
   {
@@ -6171,7 +6171,7 @@
     "casting_time":"1 action",
     "level":"3rd-level",
     "school":"Transmutation",
-    "class":"Cleric, Druid, Ranger, Ritual Caster, Sorcerer",
+    "class":"Cleric, Druid, Ranger, Sorcerer",
     "circles":"Coast, Swamp"
   },
   {
