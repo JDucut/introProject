@@ -1,5 +1,5 @@
 class Spell < ApplicationRecord
 	belongs_to :school
-	has_many :classSpellLists
-	has_many :adventurerClasses, through: :classSpellLists
+	has_many :class_spell_lists
+	has_many :adventurer_classes, through: :class_spell_lists
 end

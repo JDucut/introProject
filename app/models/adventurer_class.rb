@@ -1,4 +1,4 @@
 class AdventurerClass < ApplicationRecord
-	has_many :classSpellLists
-	has_many :spells, through: :classSpellLists
+	has_many :class_spell_lists
+	has_many :spells, through: :class_spell_lists
 end

@@ -41,7 +41,7 @@ spell_hash['Spells'].each do |spell|
 					 :level => spell['level'],
 					 :school => School.find_by(schoolName: spell['school']))
 
-	#puts "#{doThis.errors.full_messages}"
+	
 
 	casters = spell['class'].split(',')
 
@@ -52,8 +52,8 @@ end
 
 puts "Finished populating spells table"
 
-ClassSpellList.create(:className => AdventurerClass.first, :spellName => Spell.first)
-
+doThis = ClassSpellList.create(:adventurer_class => AdventurerClass.first, :spell => Spell.first)
+puts "#{doThis.errors.full_messages}"
 
 
 puts "There are #{AdventurerClass.count} classes."
