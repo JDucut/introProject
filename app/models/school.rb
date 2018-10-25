@@ -1,6 +1,6 @@
 class School < ApplicationRecord
 	has_many :spells
 
-	validates :schoolName, presense: true
-	validates :description, presense: true
+	validates :schoolName, presence: true
+	validates :description, presence: true
 end
