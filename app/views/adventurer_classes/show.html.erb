@@ -4,7 +4,8 @@
 
 <h3>Class Spells:</h3>
 	<ul>
-		<% @adventurer_class.spells.each do |spell|%>
+		<% @class_spells.each do |spell|%>
 			<li> <%= link_to spell.name, spell %> </li>
 		<% end %>
 	</ul>
+	<%= paginate @class_spells%>

@@ -5,5 +5,6 @@ class AdventurerClassesController < ApplicationController
 
   def show
   	@adventurer_class = AdventurerClass.find(params[:id])
+  	@class_spells = @adventurer_class.spells.all.page(params[:page]).per(30)
   end
 end
