@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'adventurer_classes/index'
+  get 'adventurer_classes/show'
   # get 'school/index'
   # get 'school/show'
 	resources :spells, only: [:index, :show]
