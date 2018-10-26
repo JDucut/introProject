@@ -1,2 +1,13 @@
-<h1>Spells#show</h1>
-<p>Find me in app/views/spells/show.html.erb</p>
+<h1>Spells</h1>
+<h2><%=@spell.name%></h2>
+
+<ul>
+	<li><%=@spell.level %></li>
+	<li>Casting time: <%=@spell.castingTime %></li>
+	<li>Duration: <%=@spell.duration %></li>
+	<li>Concentration: <%=@spell.concentration %></li>
+	<li>Range: <%=@spell.range %></li>
+	<li>Components: <%=@spell.components %></li>
+	<li>School: <%=@spell.school.schoolName %></li>
+</ul>
+<%=@spell.description.html_safe%>
