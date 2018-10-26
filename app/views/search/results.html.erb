@@ -1,0 +1,39 @@
+<h1>Results for "<%=@query%>"</h1>
+
+<% if @adventurer_classes.empty? %>
+	<p>No Classes found.</p>
+<% else %>
+	<h3>Found Classes</h3>
+		<ul>
+			<% @adventurer_classes.each do |adventurer_class|%>
+				<li> <%= link_to adventurer_class.name, adventurer_class %> </li>
+			<% end %>
+		</ul>
+<% end %>
+
+<% if @schools.empty? %>
+	<p>No Schools found.</p>
+<% else %>
+	<h3>Found Schools</h3>
+		<ul>
+			<% @schools.each do |school|%>
+				<li> <%= link_to school.schoolName, school %> </li>
+			<% end %>
+		</ul>
+<% end %>
+
+
+<% if @spells.empty? %>
+	<p>No spells found.</p>
+<% else %>
+	<h3>Found Spells</h3>
+		<ul>
+			<% @spells.each do |spell|%>
+				<li> <%= link_to spell.name, spell %> </li>
+			<% end %>
+		</ul>
+<% end %>
+
+
+
+

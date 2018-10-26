@@ -4,8 +4,12 @@ Rails.application.routes.draw do
 	root to: 'spells#index'
 
 	resources :schools, only: [:index, :show]
-	root to: 'schools#index'
 
 	resources :adventurer_classes, only: [:index, :show]
-	root to: 'adventurer_classes#index'
+
+  resources :search, only: [:index] do
+    collection do
+      get 'results'
+    end
+  end
 end

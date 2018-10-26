@@ -17,6 +17,11 @@
  			<li><%=link_to "Adventurer Classes", adventurer_classes_path%></li>
  			<li><%=link_to "Schools of Magic", schools_path%></li>
  		</ul>
+    <%= form_tag(results_search_index_path, method: "get") do %>
+      <%= label_tag(:q, "Search for:") %>
+      <%= text_field_tag(:q) %>
+      <%= submit_tag("Search") %>
+    <% end %>
  	</header>
     <%= yield %>
   </body>
