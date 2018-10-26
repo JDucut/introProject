@@ -1,2 +1,7 @@
-<h1>Spells#index</h1>
-<p>Find me in app/views/spells/index.html.erb</p>
+<h1>Spells</h1>
+
+<ul>
+	<% @spells.each do |spell|%>
+		<li> <%= spell.name %> </li>
+	<% end %>
+</ul>
