@@ -10,6 +10,14 @@
   </head>
 
   <body>
+
+ 	<header>
+ 		<ul>
+ 			<li><%=link_to "Spells", root_path%></li>
+ 			<li><%=link_to "Adventurer Classes", adventurer_classes_path%></li>
+ 			<li><%=link_to "Schools of Magic", schools_path%></li>
+ 		</ul>
+ 	</header>
     <%= yield %>
   </body>
 </html>
