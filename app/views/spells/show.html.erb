@@ -8,6 +8,6 @@
 	<li>Concentration: <%=@spell.concentration %></li>
 	<li>Range: <%=@spell.range %></li>
 	<li>Components: <%=@spell.components %></li>
-	<li>School: <%=@spell.school.schoolName %></li>
+	<li>School: <%= link_to @spell.school.schoolName, @spell.school %></li>
 </ul>
 <%=@spell.description.html_safe%>

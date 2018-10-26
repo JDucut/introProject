@@ -25,7 +25,7 @@ puts "Finished populating Classes table"
 
 school_hash['schools'].each do |school|
 	School.create(:schoolName => school['name'],
-				  :description => school['name'])
+				  :description => school['desc'])
 end
 
 puts "Finished populating Schools table"
