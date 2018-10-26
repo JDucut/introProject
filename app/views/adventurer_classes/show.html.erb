@@ -1,2 +1,10 @@
-<h1>AdventurerClasses#show</h1>
-<p>Find me in app/views/adventurer_classes/show.html.erb</p>
+<h1>Adventurer Classes</h1>
+<h2><%=@adventurer_class.name%></h2>
+<p><%=@adventurer_class.description%></p>
+
+<h3>Class Spells:</h3>
+	<ul>
+		<% @adventurer_class.spells.each do |spell|%>
+			<li> <%= link_to spell.name, spell %> </li>
+		<% end %>
+	</ul>

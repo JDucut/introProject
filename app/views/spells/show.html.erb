@@ -9,5 +9,12 @@
 	<li>Range: <%=@spell.range %></li>
 	<li>Components: <%=@spell.components %></li>
 	<li>School: <%= link_to @spell.school.schoolName, @spell.school %></li>
+	<li><b>Classes: </b>
+		<ul>
+			<%@spell.adventurer_classes.each do |adventurer|%>
+				<li><%= link_to adventurer.name, adventurer%></li>
+			<%end%>
+		</ul>
+	</li>
 </ul>
 <%=@spell.description.html_safe%>
